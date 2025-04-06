@@ -191,14 +191,15 @@ body::after {
 }
 
 .profile-image img {
-  width: 130%;
-  height: 130%;
+  width: 150%;
+  height: 150%;
   object-fit: cover;
   position: absolute;
-  top: -15%;
-  left: -15%;
-  transform: scale(1); /* Reduced from 1.3 to remove excess zoom */
-  object-position: center center; /* Centered position instead of top-heavy */
+  top: -25%;
+  left: -25%;
+  transform: scale(1.1);
+  object-position: center 40%;
+  will-change: transform;
 }
 
 .profile-info {
@@ -305,6 +306,48 @@ body::after {
   font-size: 20px;
   margin-right: 15px;
   color: var(--primary-color);
+}
+
+/* Add hot effect for the first link (Agende sua Consulta) */
+.links .link-card:first-child {
+  background: linear-gradient(135deg, #ff5858 0%, #f09819 100%);
+  border-left: 4px solid #f09819;
+  position: relative;
+  overflow: hidden;
+  animation: pulse-hot 2s infinite;
+}
+
+.links .link-card:first-child i,
+.links .link-card:first-child span {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.links .link-card:first-child::after {
+  content: "🔥";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 18px;
+}
+
+@keyframes pulse-hot {
+  0% {
+    box-shadow: 0 5px 15px rgba(240, 152, 25, 0.3);
+  }
+  50% {
+    box-shadow: 0 5px 30px rgba(240, 152, 25, 0.6);
+  }
+  100% {
+    box-shadow: 0 5px 15px rgba(240, 152, 25, 0.3);
+  }
+}
+
+/* Keep the default hover effect but enhance it */
+.links .link-card:first-child:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 10px 25px rgba(240, 152, 25, 0.7);
 }
 
 /* Services Section */
@@ -430,9 +473,10 @@ footer {
 
   /* Fix image position on mobile */
   .profile-image img {
-    width: 120%;
-    height: 120%;
-    top: -10%;
-    left: -10%;
+    width: 140%;
+    height: 140%;
+    top: -20%;
+    left: -20%;
+    object-position: center 35%;
   }
 }
