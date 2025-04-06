@@ -1,33 +1,33 @@
 ## !! a porra ainda tem uns 530 depois eu resolvo
 
-# 🌸 LinkTree da Jaina Maués - Harmonização Facial
+# 🌸 LinkTree da Dra. Karen Sampaio - Harmonização Facial
 
-Site estilo LinkTree feito com carinho pra Jaina Maués, especialista em harmonização facial. Layout moderno, vibes elegantes, responsivo e cheio de efeitos visuais que dão aquele charme ✨
+Site estilo LinkTree feito para Dra. Karen Sampaio, especialista em harmonização facial. Layout moderno, elegante, responsivo e com efeitos visuais que dão charme ✨
 
 ## 💅 Destaques
 
 - Visual clean e profissional, com tons de roxo/lilás 💜
-- Animações suaves pra deixar tudo mais fluido
-- Efeitos legais: partículas flutuando e ondinha quando clica
+- Animações suaves para deixar tudo mais fluido
+- Efeitos de partículas flutuando no fundo
 - 100% responsivo — funciona bem no celular e no PC
-- Seção de serviços com ícones bonitinhos
-- Perfil com foto e infos da profissional
+- Seção de serviços com ícones intuitivos
+- Perfil com foto e informações da profissional
 
 ## ✏️ Como editar
 
 ### Infos do perfil
 
-Abra o `index.html` e troca fácil:
+Abra o `index.html` e altere:
 
 - Nome e descrição no `profile-info`
 - Foto de perfil (só trocar o link pela imagem real)
 - Links e botões de redes sociais na seção `links`
-- Serviços oferecidos lá na `service-grid`
-- Rodapé com info extra
+- Serviços oferecidos na `service-grid`
+- Rodapé com informações adicionais
 
 ### Cores do site
 
-Vai em `style.css`, logo no começo tem isso:
+No arquivo `style.css`, no início tem:
 
 ```css
 :root {
@@ -36,24 +36,24 @@ Vai em `style.css`, logo no começo tem isso:
 }
 ```
 
-Muda as cores como quiser pra combinar com a identidade da marca 🌈
+Altere as cores para combinar com a identidade da marca 🌈
 
 ### Links
 
-No `index.html`, acha a parte `links` e edita assim:
+No `index.html`, na parte `links` edite:
 
 ```html
-<a href="#URL" class="link-card">
+<a href="https://example.com" class="link-card">
   <i class="ICONE"></i>
   <span>Texto do link</span>
 </a>
 ```
 
-Ícones vêm do [Font Awesome](https://fontawesome.com/icons) — é só pegar e usar.
+Ícones são do [Font Awesome](https://fontawesome.com/icons).
 
 ### Serviços
 
-Edita a parte `service-grid`, assim:
+Edite a seção `service-grid`:
 
 ```html
 <div class="service-item">
@@ -64,35 +64,33 @@ Edita a parte `service-grid`, assim:
 </div>
 ```
 
-Troca os nomes e ícones pros serviços reais que Jaina oferece.
-
 ## 🚀 Como colocar no ar
 
-1. Bota a foto real da Jaina
-2. Atualiza os links com os perfis e contatos dela
-3. Ajusta os serviços oferecidos
-4. Se quiser, muda as cores pra ficar com a cara dela
-5. Sobe tudo num serviço de hospedagem (tipo GitHub Pages, Netlify, Vercel...)
+1. Insira a foto real da Dra. Karen
+2. Atualize os links com os perfis e contatos dela
+3. Ajuste os serviços oferecidos
+4. Se desejar, altere as cores para personalizar
+5. Hospede em um serviço como GitHub Pages, Netlify ou Vercel
 
-## 🗂 Arquivos que vêm no pacote
+## 🗂 Arquivos inclusos
 
 - `index.html` → estrutura do site
-- `style.css` → o look todo
+- `style.css` → estilização
 - `script.js` → efeitos e interações
-- `README.md` → este guia que você tá lendo
+- `README.md` → este guia
 
 ## 💡 Dicas extras
 
-Quer turbinar o site? Ideias:
+Para melhorar o site:
 
 - Formulário de contato
-- Galeria de “antes e depois”
+- Galeria de "antes e depois"
 - Depoimentos de clientes
 - Sistema de agendamento online
 
 ---
 
-Feito com ❤️ especialmente pra Jaina Maués.  
-Cuida do rosto, que do site a gente cuida 😉
+Feito com ❤️ para Dra. Karen Sampaio.  
+Especialista em cuidar da sua beleza com profissionalismo.
 
 ---
