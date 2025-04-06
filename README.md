@@ -98,5 +98,3 @@ Feito com ❤️ especialmente pra Jaina Maués.
 Cuida do rosto, que do site a gente cuida 😉
 
 ---
-
-Se quiser uma versão mais formal pra enviar pra cliente, posso montar também!
