@@ -1,6 +1,4 @@
-Claro! Aqui vai uma versão mais leve, com tom jovem, direto e amigável — perfeita pra mostrar num GitHub ou mandar pra alguém da área:
-
----
+## !! a porra ainda tem uns 530 depois eu resolvo
 
 # 🌸 LinkTree da Jaina Maués - Harmonização Facial
 
