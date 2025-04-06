@@ -191,14 +191,14 @@ body::after {
 }
 
 .profile-image img {
-  width: 160%;
-  height: 160%;
+  width: 130%;
+  height: 130%;
   object-fit: cover;
   position: absolute;
-  top: -35%;
-  left: -30%;
-  transform: scale(1.3); /* 30% zoom to eliminate border issues */
-  object-position: center 20%; /* Position the image to show more of the top */
+  top: -15%;
+  left: -15%;
+  transform: scale(1); /* Reduced from 1.3 to remove excess zoom */
+  object-position: center center; /* Centered position instead of top-heavy */
 }
 
 .profile-info {
@@ -430,9 +430,9 @@ footer {
 
   /* Fix image position on mobile */
   .profile-image img {
-    width: 150%;
-    height: 150%;
-    top: -30%;
-    left: -25%;
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
   }
 }

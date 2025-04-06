@@ -34,39 +34,10 @@ document.addEventListener("DOMContentLoaded", () => {
       playSoftSound();
     });
 
-    // Add click animation
-    card.addEventListener("click", (e) => {
-      // Create ripple effect
-      createRippleEffect(e, card);
-    });
+    // Set href for all links to example.com
+    card.href = "https://example.com";
   });
 });
-
-// Function to create a subtle ripple effect on click
-function createRippleEffect(event, element) {
-  const ripple = document.createElement("span");
-  const rect = element.getBoundingClientRect();
-
-  const size = Math.max(rect.width, rect.height);
-  const x = event.clientX - rect.left - size / 2;
-  const y = event.clientY - rect.top - size / 2;
-
-  ripple.style.width = ripple.style.height = `${size}px`;
-  ripple.style.left = `${x}px`;
-  ripple.style.top = `${y}px`;
-  ripple.className = "ripple";
-
-  // Remove existing ripples
-  const currentRipples = element.querySelectorAll(".ripple");
-  currentRipples.forEach((r) => r.remove());
-
-  element.appendChild(ripple);
-
-  // Clean up
-  setTimeout(() => {
-    ripple.remove();
-  }, 600);
-}
 
 // Function to create floating particles in the background
 function createParticles() {
@@ -166,34 +137,6 @@ function playSoftSound() {
     sound.volume = 0.2;
     sound.play().catch(e => console.log('Audio play prevented:', e));
     */
-}
-
-// Add a CSS class for ripple effect
-const style = document.createElement("style");
-style.innerHTML = `
-    .ripple {
-        position: absolute;
-        border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.5);
-        transform: scale(0);
-        animation: ripple 0.6s linear;
-        pointer-events: none;
-        z-index: 2;
-    }
-    
-    @keyframes ripple {
-        to {
-            transform: scale(4);
-            opacity: 0;
-        }
-    }
-`;
-document.head.appendChild(style);
-
-// Add support for dark mode toggle
-function setupDarkModeToggle() {
-  // We can add this feature later if needed
-  // This would adjust the CSS variables based on user preference
 }
 
 // Update copyright year automatically
