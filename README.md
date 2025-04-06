@@ -1,8 +1,6 @@
-## !! a porra ainda tem uns 530 depois eu resolvo
+# 🌟 LinkTree Profissional
 
-# 🌸 LinkTree da Dra. Karen Sampaio - Harmonização Facial
-
-Site estilo LinkTree feito para Dra. Karen Sampaio, especialista em harmonização facial. Layout moderno, elegante, responsivo e com efeitos visuais que dão charme ✨
+Site estilo LinkTree para qualquer profissional. Layout moderno, elegante, responsivo e com efeitos visuais que dão charme ✨
 
 ## 💅 Destaques
 
@@ -11,7 +9,7 @@ Site estilo LinkTree feito para Dra. Karen Sampaio, especialista em harmonizaç�
 - Efeitos de partículas flutuando no fundo
 - 100% responsivo — funciona bem no celular e no PC
 - Seção de serviços com ícones intuitivos
-- Perfil com foto e informações da profissional
+- Perfil com foto e informações do profissional
 
 ## ✏️ Como editar
 
@@ -66,8 +64,8 @@ Edite a seção `service-grid`:
 
 ## 🚀 Como colocar no ar
 
-1. Insira a foto real da Dra. Karen
-2. Atualize os links com os perfis e contatos dela
+1. Insira a foto real do profissional
+2. Atualize os links com os perfis e contatos
 3. Ajuste os serviços oferecidos
 4. Se desejar, altere as cores para personalizar
 5. Hospede em um serviço como GitHub Pages, Netlify ou Vercel
@@ -84,13 +82,12 @@ Edite a seção `service-grid`:
 Para melhorar o site:
 
 - Formulário de contato
-- Galeria de "antes e depois"
+- Galeria de portfólio
 - Depoimentos de clientes
 - Sistema de agendamento online
 
 ---
 
-Feito com ❤️ para Dra. Karen Sampaio.  
-Especialista em cuidar da sua beleza com profissionalismo.
+Feito com ❤️ para profissionais que desejam uma presença digital elegante.
 
 ---
